@@ -1,0 +1,77 @@
+#mainName {
+    padding: 10rem 0rem;
+    font-family: 'Anonymous Pro', monospace;
+    background-image: url(img/main_name_background.png);
+}
+
+#postMain {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+h2 {
+    font-weight: 700;
+    position: sticky;
+    top: 88px;
+    background-color: #141414;
+    padding: 10px;
+}
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#mainDesc p {
+    margin-bottom: 0;
+}
+
+#postMain p {
+    margin-bottom: 0.25rem;
+}
+
+.project:nth-child(2n) {
+    margin-top: 1.5rem;
+}
+
+.smallLink {
+    font-size: 0.8rem;
+}
+
+.margintoprow {
+    margin-top: 5rem!important;
+}
+
+.skillContainer {
+    margin-bottom: 0.6rem;
+}
+
+.row2{
+    --bs-gutter-x: 0;
+}
+
+#navbarLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbarLinks a:hover {
+    color: rgb(144, 144, 144);
+    text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 500px;
+    }
+}   
+
+@media (max-width: 700px) {
+    #nameDesc {
+        padding: 40px;
+    }
+}
